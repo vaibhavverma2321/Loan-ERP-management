@@ -97,7 +97,7 @@ frappe.views.Workspace = class Workspace {
 	prepare_new_and_edit() {
 		this.$page = $(`
 		<div class="editor-js-container"></div>
-		<div class="workspace-footer" style="display:none;">
+		<div class="workspace-footer">
 			<button data-label="New" class="btn btn-default ellipsis btn-new-workspace">
 				<svg class="es-icon es-line icon-xs" style="" aria-hidden="true">
 					<use class="" href="#es-line-add"></use>
